@@ -1,0 +1,7 @@
+The Node runtime environment runs JavaScript outside the browser. So, I can run JavaScript console in a terminal or any command-line using node.js.
+5 things Javascript can do; Frontend development, Backend development, mobile development, developing games, for Artificial intelligence.
+ECMASript was first released in the year 1997.
+How to log to the console; (i)Go to chrome app and click it (ii)Then right-click anywhere in the browser, a pop-up menu will show up, click Inspect. By default, it'll open the Elements in the developers' tool. Click on 'Console'tab which is by the right to 'Elements'.
+Techfields that use JavaScript are:Backend development, mobile app development, Frontend development,Game development fields, Software Testing etc.
+Dynamically typed also known as weakly typed programming languages allow conversion between unrelated types e.g Ruby, JavaScript, Perl,Python, PHP while Statically typed also known as strongly-typed programming languages does not allow implicit conversion between unrelated types e.g Java, C++ .
+In JavaScript, a variable without a value and a type is said to be an "Undefined" datatype e.g; (i)let car; (ii) car =undefined (is undefined) whereas the "null" datatype has both a value and type e.g (i)let car = " "; where the value is "" and the typeof is "string" .
