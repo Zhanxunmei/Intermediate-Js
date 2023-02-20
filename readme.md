@@ -1,7 +1,40 @@
-The Node runtime environment runs JavaScript outside the browser. So, I can run JavaScript console in a terminal or any command-line using node.js.
-5 things Javascript can do; Frontend development, Backend development, mobile development, developing games, for Artificial intelligence.
-ECMASript was first released in the year 1997.
-How to log to the console; (i)Go to chrome app and click it (ii)Then right-click anywhere in the browser, a pop-up menu will show up, click Inspect. By default, it'll open the Elements in the developers' tool. Click on 'Console'tab which is by the right to 'Elements'.
-Techfields that use JavaScript are:Backend development, mobile app development, Frontend development,Game development fields, Software Testing etc.
-Dynamically typed also known as weakly typed programming languages allow conversion between unrelated types e.g Ruby, JavaScript, Perl,Python, PHP while Statically typed also known as strongly-typed programming languages does not allow implicit conversion between unrelated types e.g Java, C++ .
-In JavaScript, a variable without a value and a type is said to be an "Undefined" datatype e.g; (i)let car; (ii) car =undefined (is undefined) whereas the "null" datatype has both a value and type e.g (i)let car = " "; where the value is "" and the typeof is "string" .
+1a.Assignment Operators symbols- *(multiplication), +(addition), /(division), -(subtraction), \*\*(exponentiation), %(modulus[remainder]), ++(increment), --(decrement).
+Examples:
+let a = 6;
+let b = 4;
+let sum = a+b;
+let multiplication = a*b;
+console.log(sum);
+console.log(multiplication);
+
+1b.Assignment Operators symbols- =(basic assignment), +=(add and assignment), -=(subtract and assignment), \*=(multiply and assignment), /=(divide and assignment), %=(modulus and assignment).
+Examples:
+let x = 9;
+let y = 4;
+x+=y is same as = x+y; which should be 9+4
+x-=y is same as =x-y ; which should be 9-4
+console.log(x+=y);
+console.log(x-=);
+
+1c. Comparison Operators symbols- =, ==, ===, !==, !===, <, >, <=, >=
+Examples:
+let cash = 500;
+let expenses = '500';
+
+console.log(cash == expenses)//(weak equal operator) double equal operator only check the 'value'
+console.log(cash === expenses)//(strict equal operator) triple equal operator checks both the 'value' and 'type'.
+
+1d. Logical Operators- &&(And), ||(Or), !(Not)
+Examples:
+let x = 7;
+let y = 5;
+console.log(x<10 && y>3); Note: it gives a boolean result(true)
+console.log(x==6 || y==4); it also gives a boolean result(false)
+
+1e. Bitwise Operators- &, |, ^, ~, <<, >>, >>>
+
+4. The result when the following program
+   for(let i = 1; i<20; i +=7){
+   console.log(i);
+   }
+   is executed will be; 1(i=1),8(i+=7; 1+7) and 15(i as '8'+ 7= 15) respectively.
