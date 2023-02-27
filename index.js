@@ -1,29 +1,63 @@
-console.log('Stutern 1.4 cohort')
+// 1. The use of Construction function;
+//function Instaname(handlename, content, imageLink, numberOfviews, numberOflikes) {
+   // this.handlename = handlename;
+   // this.content = content;
+   // this.imageLink = imageLink;
+   // this.numberOfviews = numberOfviews
+   // this.numberOflikes = numberOflikes;
+//}
 
-document.getElementById("name").innerText=("Metro Boomin")
-document.getElementById("wrapper").innerHTML= "<p> I have started intermediate level</p>"
+// 2.
+//let instaPage = new Instaname('diasporaNarrative', 'migrationExperts', 'https:www.instagram.com/p/CmUZYNmoxaB/', 600, 450);
+//console.log(instaPage)
+//let instaHandle = new Instaname('herdibles', 'New University Restaurant', 'https:www.instagram.com/p/CWFuf3mqNEe', 1000, 700);
+//console.log(instaHandle)
 
-function multiply (number1, number2) {
-    return number1 * number2
-}
+//3a. The use of factory function:
+//function Person(firstName,lastName,age,location) {
+    //return{
+       // firstName:firstName,
+        //lastName:lastName,
+        //age:age,
+        //location:location,
+   // }
+//}
+//const Person1 = Person('Dawodu', 'Musa', 19, 'Lagos-Lekki');
+//console.log(Person1)
 
-console.log(multiply(20, 5))
+// 3b.
+//function jambScores(eng, govt, lit, crk){
+    //return{
+       // eng: eng,
+       // govt: govt,
+       // lit: lit,
+       // crk: crk,
+    //}
+//}
+//const Result = jambScores(70,85,82,94);
+//console.log(Result)
 
-let firstName = 'Joyce';
-let lastName = 'Adindu';
-let track = 'Frontend Development Track';
-let skills = 'Mandarin translation, Article writing, Research,lobbying, microsoft office etc';
-let color = 'Blue';
-let year = '1960';
+// 3bi.
+//const student = {
+    //jambScores: {
+       //ENG: 90,
+       //MATH: 85,
+       //PHY: 95,
+       //CHEM: 90,
+    //}
+ //}
+ //console.log(student)
+ //Person1.jambScores = console.log(student)
+
+ // 4.i.Using Object.assign()
+ // e.g const  book = {
+   //CEO: 'Bruce',
+   //title: 'The trials of Brother Jero',
+   //yearEstablished: 2019,
+//}
 
 
-console.log(firstName);
-console.log(lastName);
-console.log(track);
-console.log(skills);
-console.log(color);
-console.log(year);
+
+// 2.  Using Spread syntax
 
 
-console.log("My name is "+ firstName  +' ' + lastName +"," +"a Nigerian. "+ "Nigeria got her independence in "+ year + "." +"I am in the "  + track + " for stutern 1.4 cohort program." + " I have some skills which are as follows;" +
- skills +"." + " My favourite color is "+ color + ".") 
