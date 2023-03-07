@@ -38,3 +38,4 @@ console.log(x==6 || y==4); it also gives a boolean result(false)
    console.log(i);
    }
    is executed will be; 1(i=1),8(i+=7; 1+7) and 15(i as '8'+ 7= 15) respectively.
+[readme.md](https://github.com/Zhanxunmei/Intermediate-Js/files/10911811/readme.md)
